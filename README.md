@@ -8,9 +8,7 @@ En la demodulación se tenía la señal con ruido y al multiplicar sus partes po
 
 Para la parte 4.2 se modificó el código del laboratorio 4 para poder obtener el promedio de las realizaciones del proceso. En este caso el proceso estaba dado por:
 
-$$
-s(t) = A_1 \cos(2\pi f_c t) + A_2 \sin(2\pi f_c t)
-$$
+$s(t) = A_1 \cos(2\pi f_c t) + A_2 \sin(2\pi f_c t)$
 
 Donde A_1 y A_2 pueden ser -1 o 1. Por lo tanto van a haber 4 realizaciones. Al obtener el promedio de estas se obtuvo 0 que concuerda con el promedio de la señal transmitida. Se podría decir que el proceso es estacionario en el sentido amplio ya que el promedio estadístico del promedio temporal de las realizaciones es el promedio estadístico del promedio temporal. Ya que el promedio estadístico y el promedio temporal son iguales, el proceso es ergódico. Esto ya que el promedio de las realizaciones es el mismo que el teórico obntenido en la señal transmitida. 
 
